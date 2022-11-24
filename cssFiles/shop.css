@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Microbe&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* HEADER SECTION  */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 25px;
+}
+
+.logo h1 {
+    font-size: 25px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.nav {
+    margin-left: -1rem;
+}
+
+.nav ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.nav ul li a {
+    color: #000;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.account-icon {
+    font-size: 20px;
+}
+
+.account-icon i {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+}
+
+.header input {
+    height: 4vh;
+    width: 18vw;
+    margin-right: 5vw;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Header Section */
+
+
+/* Main Section */
+.main {
+    margin: 2vw 1vw;
+    background-color: #F8F8F8;
+    height: 13vw;
+}
+
+.main p {
+    padding: 3.5vw 2vw 1vw;
+}
+
+.main h2 {
+    padding: 0vw 2vw 1vw;
+    font-size: 37px;
+}
+
+/* Main Section */
+
+/* Filters */
+.filter {
+    display: flex;
+}
+
+.filters {
+    display: flex;
+    margin: 2vw;
+    width: 40vw;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.filters h2 {
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.filters div {
+    margin: 0 1vw;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.filters div ul {
+    list-style-type: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px 0px;
+    margin: 8px 4px;
+    display: none;
+    width: 7%;
+}
+
+.filters ul li {
+    margin: 3px 0;
+    margin: 3px 10%;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.filter ul li:hover {
+    background-color: #d8d7d7;
+}
+
+.latest {
+    list-style-type: none;
+    margin: 2vw 0vw 3vw 30vw;
+    width: 14vw;
+    text-align: center;
+}
+
+.latest h2 {
+    border: 2px solid black;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.latest ul {
+    list-style-type: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px 0px;
+    margin: 8px 0;
+    display: none;
+    width: 14%;
+}
+
+.latest ul li {
+    margin: 3px 0;
+    margin: 3px 10%;
+    width: 80%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 950px) {
+    .filter {
+        width: 30vw;
+        display: block;
+    }
+
+    .filters {
+        margin-left: 0;
+        display: block;
+        width: 25vw;
+    }
+
+    .filters div{
+        margin: 1vw;
+    }
+
+    .latest {
+        margin: 0 1vw;
+        display: block;
+        width: 23vw;
+    }
+}
+
+/* Filters */
+
+/* Products */
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.items div {
+    margin: 1vw 1vw;
+}
+
+.items div h4 {
+    margin: 1vw;
+    font-size: 20px;
+}
+
+.items div p {
+    margin: 1vw;
+    font-size: 20px;
+}
+
+/* Products */
