@@ -1,15 +1,11 @@
-
-
-import './App.css'
+import Hero from "./view/Hero";
 
 function App() {
-  
-
   return (
     <>
-      <h1 className='text-center'>Skyline</h1>
+      <Hero />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
