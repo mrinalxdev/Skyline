@@ -12,3 +12,7 @@ html,
 body{
   overflow-x: hidden;
 }
+
+.background {
+  background: linear-gradient(180deg, #ffffff00 0%, #FFF 100%);
+}
