@@ -1,4 +1,5 @@
 import Hero from "./view/Hero";
+import Products from "./view/Products";
 import Services from "./view/Services";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Hero />
       <Services />
+      <Products />
     </>
   );
 }
