@@ -39,17 +39,17 @@ export const products = [
   {
     title: "Golden Pothos",
     price: "Rs. 160",
-    img: productOneIcon,
+    imge: productOneIcon,
   },
   {
     title: "Rubber Plant",
     price: "Rs. 210",
-    img: productTwoIcon,
+    imge: productTwoIcon,
   },
   {
     title: "Cast Iron Plant",
     price: "Rs. 310",
-    img: productThreeIcon,
+    imge: productThreeIcon,
   },
 ];
 

@@ -26,14 +26,12 @@ const Products = () => {
         </div>
       </FadeIn>
 
-      <div className="w-full flex-flex-col md:flex-row gap-[160px] md:gap-6">
+      <div className="w-full flex flex-col md:flex-row gap-[160px] md:gap-6">
         {products.map((product, i) => (
           <FadeIn key={i} delay={(i + 1) * 0.2} direction="left" fullWidth>
             <div className="h-[510px] relative flex-1 bg-[#C1D0E4] rounded-[50px] max-w-[500px]">
               <img
-                src={product.img}
-                alt=""
-                className="absolute -top-[120px] left-1/2 -translate-x-1/2"
+                src={product.imge} className="absolute -top-[120px]"
               />
               <div className="absolute bottom-0 w-full bg-white h-[260px] rounded-[50px] shadow-md px-8 py-[26px] flex flex-col justify-between">
                 <div className="">
@@ -43,7 +41,8 @@ const Products = () => {
                   <img src={starsIcon} alt="" />
                 </div>
                 <div className="flex justify-between items-center">
-                  <h3 className="text-fontBlack">{product.price}</h3>
+                  <h3 className="text-fontBlack text-2xl lg:text-3xl font-medium">{product.price}</h3>
+                  <img src={plusIcon} alt="" className="cursor-pointer h-10 xs:h-12 w-10 xs:w-12"/>
                 </div>
               </div>
             </div>
