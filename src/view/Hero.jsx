@@ -27,7 +27,7 @@ const Hero = () => {
         <span className="font-bold text-3xl text-white">SkyLine</span>
         <ul className="hidden md:flex items-center gap-10 lg:gap-[68px]">
           <NavLink to="services">Services</NavLink>
-          <NavLink to="products">Shoreferences</NavLink>
+          <NavLink to="products">Products</NavLink>
           <NavLink to="references">References</NavLink>
           <NavLink to="care">Care</NavLink>
         </ul>
@@ -59,7 +59,7 @@ const Hero = () => {
               Services
             </NavLink>
             <NavLink to="products" mobileMenu>
-              Shoreferences
+              Products
             </NavLink>
             <NavLink to="references" mobileMenu>
               References
