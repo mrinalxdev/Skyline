@@ -67,6 +67,11 @@ export const careList = [
     img: sunIcon,
   },
   {
+    title : "Dont water too often",
+    subtitle : "Watering ornamental houseplants does not have to be done every day.",
+    img : waterIcon,
+  },
+  {
     title: "Choose the right container",
     subtitle:
       "Houseplants will need different containers depending on their type and size.",
