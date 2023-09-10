@@ -16,3 +16,9 @@ body{
 .background {
   background: linear-gradient(180deg, #ffffff00 0%, #FFF 100%);
 }
+.footer {
+  background: linear-gradient(133deg, #566270 0%, #283444 100%);
+}
+.navlink {
+  background: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+}
